@@ -1,0 +1,2 @@
+#!/bin/bash
+chmod -R a=xu=rwx 0x01-shell_permissions
