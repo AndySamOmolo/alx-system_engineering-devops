@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #This script lists contents of current directory
 for file in *; do
-    if [[ $file =~ ^\. ]]; then
+    if [[ "file" =~ ^\. ]]; then
         continue
     fi
     name="${file#*-}"
