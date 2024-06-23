@@ -27,7 +27,7 @@ The issue was caused by the servers being overwhelmed by the number of uploads t
 - The customer care department should convey issues reported by users immediately to decrease service downtime.
 
 ## Tasks to be addressed:
-- []Add monitoring on server memory.
-- Add overhead to the memory of the servers.
-- Have extra servers on standby.
-- Improve the issue reporting from customer care.
+- [ ] Add monitoring on server memory.
+- [ ] Add overhead to the memory of the servers.
+- [ ] Have extra servers on standby.
+- [ ] Improve the issue reporting from customer care.
