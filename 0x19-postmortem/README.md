@@ -10,7 +10,7 @@ Our uploading service was slow and thus some users were unable to post from thei
 The root cause of the issue was the uploading servers being overwhelmed by the high number of users uploading to them concurrently. This caused them to have a backlog of uploads which they were unable to process.
 
 # Timeline
-**14:00 EAT** - The issue is detected by a user who is unable to upload a post after 5 minutes of waiting.
+. **14:00 EAT** - The issue is detected by a user who is unable to upload a post after 5 minutes of waiting.
 **14:02 EAT** - The issue is reported to a customer care agent by the user through the customer care email.
 **14:05 EAT** - Customer care assumed problem was on customers part due to the issue being reported by only one user.
 **14:10 EAT** - Customer care told user to troubleshoot their network on their end through various troubleshooting options.
