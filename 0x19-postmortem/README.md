@@ -1,12 +1,12 @@
-# Issue Summary
+# Issue Summary :book:
 ## Duration:
 Start: June 21, 2024, 14:00 EAT
 End: June 21, 2024, 15:00 EAT
 
-## Impact:
+## Impact: :skull:
 Our uploading service was slow and thus some users were unable to post from their accounts. When the users attempted to post anything they saw a loading screen which did not stop until the uploading process was cancelled. ** 60% ** of the users were affected by the service slowdown.
 
-## Root Cause:
+## Root Cause: :warning:
 The root cause of the issue was the uploading servers being overwhelmed by the high number of users uploading to them concurrently. This caused them to have a backlog of uploads which they were unable to process.
 
 # Timeline :clock1:
@@ -18,15 +18,15 @@ The root cause of the issue was the uploading servers being overwhelmed by the h
 - **14:30 EAT** - The IT department was able to figure out the issue was the servers and started installing new ones.
 - **14:45 EAT** - The servers were successfully installed and issue was resolved after servers started operating.
 
-# Root Cause and Resolution
-The issue was caused by the servers being overwhelmed by the number of uploads they were required to process. Normally the servers would be able to handle a large number of concurrent uploads but the increase in the number of users in the past couple of days overwhelmed the servers since they lacked enough memory to process the upload requests. The IT department had already noticed the increasing number of users and had thus procured new servers. After installing the new servers the issue was resolved as the new servers could process the overload which was caused by the lack of memory. The new servers processed the backlog of uploads and increased the total memory of the servers thus enabling them to process a larger number of uploads than the previous server setup. This ensures that if there is ever another time a large number of users try to upload to the platform concurrently the servers will be able to handle it.
+# Root Cause and Resolution :hammer_and_pick:
+The issue was caused by the servers :computer: being overwhelmed by the number of uploads they were required to process. Normally the servers would be able to handle a large number of concurrent uploads but the increase in the number of users in the past couple of days overwhelmed the servers since they lacked enough memory to process the upload requests. The IT department had already noticed the increasing number of users and had thus procured new servers. After installing the new servers the issue was resolved as the new servers could process the overload which was caused by the lack of memory. The new servers processed the backlog of uploads and increased the total memory of the servers thus enabling them to process a larger number of uploads than the previous server setup. This ensures that if there is ever another time a large number of users try to upload to the platform concurrently the servers will be able to handle it.
 
-# Corrective and Preventative Measures
-## Things to be improved:
+# Corrective and Preventative Measures :hammer_and_wrench:
+## Things to be improved: :hammer:
 - The IT department should always monitor the servers to check whether they are able to handle the load being sent to them at all times. They should also include an overhead in the servers incase the users increase.
 - The customer care department should convey issues reported by users immediately to decrease service downtime.
 
-## Tasks to be addressed:
+## Tasks to be addressed: :white_check_mark:
 - [ ] Add monitoring on server memory.
 - [ ] Add overhead to the memory of the servers.
 - [ ] Have extra servers on standby.
