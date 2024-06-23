@@ -4,7 +4,7 @@ Start: June 21, 2024, 14:00 EAT
 End: June 21, 2024, 15:00 EAT
 
 ## Impact: :skull:
-Our uploading service was slow and thus some users were unable to post from their accounts. When the users attempted to post anything they saw a loading screen which did not stop until the uploading process was cancelled. ** 60% ** of the users were affected by the service slowdown.
+Our uploading service was slow and thus some users were unable to post from their accounts. When the users attempted to post anything they saw a loading screen which did not stop until the uploading process was cancelled. *60%* of the users were affected by the service slowdown.
 
 ## Root Cause: :warning:
 The root cause of the issue was the uploading servers being overwhelmed by the high number of users uploading to them concurrently. This caused them to have a backlog of uploads which they were unable to process.
