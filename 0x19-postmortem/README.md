@@ -1,5 +1,5 @@
 # Issue Summary :book:
-## Duration:
+## Duration: :clock630:
 Start: June 21, 2024, 14:00 EAT
 End: June 21, 2024, 15:00 EAT
 
